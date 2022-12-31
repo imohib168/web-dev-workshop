@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Sizing</title>
+
+    <style>
+      div {
+        width: 500px;
+        height: 100px;
+      }
+
+      .top-container {
+        padding: 20px;
+        border: 10px solid black;
+        background-color: lightcoral;
+        /* box-sizing: border-box; */
+      }
+
+      .center-container {
+        height: 40px;
+        background-color: lightsalmon;
+      }
+
+      .bottom-container {
+        padding: 20px;
+        border: 10px solid black;
+        background-color: lightskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BOX SIZING</h1>
+
+    <div class="top-container"></div>
+    <div class="center-container"></div>
+    <div class="bottom-container"></div>
+  </body>
+</html>

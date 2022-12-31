@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Flexbox</title>
+
+    <style>
+      .item {
+        width: 25%;
+        height: 100px;
+        background-color: lightcoral;
+        color: white;
+      }
+
+      .container {
+        display: flex;
+        height: 300px;
+        align-items: center;
+        /* max-width: 900px; */
+        border: 5px solid black;
+        /* flex-wrap: wrap; */
+        gap: 10px;
+        justify-content: space-around;
+        /* flex-direction: column-reverse; */
+      }
+
+      .item:nth-child(1) {
+        /* order: 3; */
+        /* align-self: flex-start; */
+      }
+
+      .item:nth-child(2) {
+        /* order: 1; */
+      }
+
+      .item:nth-child(3) {
+        /* align-self: flex-end; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+  </body>
+</html>
