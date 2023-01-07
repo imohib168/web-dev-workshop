@@ -115,7 +115,8 @@ a {
 }
 
 /* Form Section */
-.contact-form > div {
+
+.form-section .contact-form {
   text-align: center;
   padding: 30px 0px;
 }
